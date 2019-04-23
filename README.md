@@ -6,14 +6,31 @@
 - [ ] TC4: Verify weather details displayed upon entering a valid city in top navigation bar
 
 # Prerequisites:
-- Java 1.8 should be installed (You can download latest stable version from here https://www.oracle.com/technetwork/java/javaee/downloads/jdk8-downloads-2133151.html)
+- Java JDK 1.8 should be installed (You can download latest stable version from [here](https://www.oracle.com/technetwork/java/javaee/downloads/jdk8-downloads-2133151.html))
 - IDE (Intellij/Eclipse) should be installed
+
+[I'm an inline-style link](https://www.google.com)
 
 # Solution:
 - [ ] This BDD framework has been developed using Cucumber and UI test cases automated using Selenium
 - [ ] This is a maven project. The project should be imported as a maven project into the respective IDE (Intellij/Eclipse)
 - [ ] In the root folder select pom.xml and do import maven dependencies
-- [ ] Feature file is defined in folder **src/test/resources/testrunner** and respective step definitions in folder **src/test/java/testrunner
+- [ ] Feature file is defined in folder 
+```
+openweather_integrationtests(project root folder)
+│   README.md 
+│
+└───src
+│   └───test
+│       └───resources
+│       |   └───testrunner
+|       |               VerifyLabels.feature
+|       └───java
+│           └───testrunner
+|                       Stepdefs.java
+```
+**src/test/resources/testrunner** and respective step definitions in folder **src/test/java/testrunner
+
 - [ ] To execute test cases open any terminal, navigate to the root folder and run following command in terminal:
         `mvn test`
 - [ ] The framework has been designed in Page Object Model, however, since most of the test cases pertain to the first page, hence, only one page class has been used.
