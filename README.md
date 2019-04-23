@@ -19,7 +19,7 @@
 ```
 openweather_integrationtests(project root folder)
 │   README.md 
-│
+│   pom.xml
 └───src
 │   └───test
 │       └───resources
