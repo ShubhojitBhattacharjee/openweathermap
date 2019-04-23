@@ -13,19 +13,22 @@
 - [ ] This BDD framework has been developed using Cucumber and UI test cases automated using Selenium
 - [ ] This is a maven project. The project should be imported as a maven project into the respective IDE (Intellij/Eclipse)
 - [ ] In the root folder select pom.xml and do import maven dependencies
-- [ ] Feature file is defined in folder 
+- [ ] Feature file and respective Step definitions are defined in following folder structure
 ```
 openweather_integrationtests(project root folder)
 │   README.md 
 │   pom.xml
 └───src
 │   └───test
-│       └───resources
-│       |   └───testrunner
-|       |               VerifyLabels.feature
-|       └───java
-│           └───testrunner
-|                       Stepdefs.java
+│   |  └───resources
+│   |   |   └───testrunner
+|   |   |               VerifyLabels.feature
+|   |   └───java
+│   |       └───testrunner
+|   |                   Stepdefs.java
+|   └───main
+|       ...
+
 ```
 **src/test/resources/testrunner** and respective step definitions in folder **src/test/java/testrunner
 
