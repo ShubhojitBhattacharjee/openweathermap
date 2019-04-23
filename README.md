@@ -9,8 +9,6 @@
 - Java JDK 1.8 should be installed (You can download latest stable version from [here](https://www.oracle.com/technetwork/java/javaee/downloads/jdk8-downloads-2133151.html))
 - IDE (Intellij/Eclipse) should be installed
 
-[I'm an inline-style link](https://www.google.com)
-
 # Solution:
 - [ ] This BDD framework has been developed using Cucumber and UI test cases automated using Selenium
 - [ ] This is a maven project. The project should be imported as a maven project into the respective IDE (Intellij/Eclipse)
