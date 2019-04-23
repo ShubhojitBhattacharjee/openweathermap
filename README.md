@@ -36,6 +36,7 @@ openweather_integrationtests(project root folder)
 - [ ] The framework has been designed in Page Object Model, however, since most of the test cases pertain to the first page, hence, only one page class has been used.
 - [ ] The framework supports cross-browser execution for Chrome and Firefox
 - [ ] Change the node value **systemPropertyVariables/browser** in **pom.xml** to **chrome** or **firefox** to execute the tests in respective browser
+- [ ] [Here](https://drive.google.com/file/d/1vlCyh-qqj3fa2ApinC2wRd8qOc0Z-xAz/view?usp=sharing) is the recorded link of execution of all the tests 
 
 # TODO:
 - [ ] Would have added test execution for Internet Explorer as well
