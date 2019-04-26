@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 
 public class Stepdefs {
 
-    OpenWeatherMapPage openWeatherMapPage;
+    private OpenWeatherMapPage openWeatherMapPage;
 
     @Before
     public void setup() {
@@ -23,7 +23,6 @@ public class Stepdefs {
 
     @Given("^I launch OpenWeatherMap application$")
     public void launchApp() throws Exception {
-
         openWeatherMapPage = new OpenWeatherMapPage();
     }
 
